@@ -1,24 +1,44 @@
-# Sudoku Swing
+# Scrambloku (Versão Terminal)
 
-Este projeto é uma implementação de Sudoku com interface gráfica desenvolvida em Java utilizando Swing. Ele foi criado com o objetivo de aplicar conceitos como Clean Code, organização em pacotes e uso das coleções do Java (Java Collections Framework).
+Este é o **Scrambloku**, um projeto de Sudoku em Java que roda diretamente no **terminal**, utilizando apenas bibliotecas padrão. Foi desenvolvido como parte de um estudo prático de lógica de programação, boas práticas com Maven e princípios de *Clean Code*.
 
-## 🎯 Propósito
+## 🎯 Objetivo
 
-- Projeto voltado para **estudos e portfólio**
-- Aprendizado de GUI com Java Swing
-- Aplicação de Clean Code e estrutura modular com Maven
-- Uso de coleções Java em um jogo completo
+Implementar um jogo de Sudoku totalmente funcional no terminal, com interface ASCII, que permita ao usuário:
 
-## 🧩 Funcionalidades
+- Visualizar o tabuleiro formatado.
+- Inserir números nas células (input).
+- Embaralhar o jogo (scramble).
+- Recomeçar o jogo (replay).
+- Verificar o status atual da grade (status).
+- Testar se completou o jogo corretamente (complete).
+- Sair do jogo (exit).
 
-- Gerar novo jogo aleatório (Scramble)
-- Repetir o jogo atual (Re-Play)
-- Verificar status (células corretas e incorretas)
-- Completar jogo automaticamente com mensagens personalizadas
-- Interface gráfica com botões funcionais e feedback visual
+## 💡 Comandos disponíveis
 
-## 🛠️ Tecnologias
+- `input`: permite inserir um número numa célula específica.
+- `scramble`: embaralha a posição dos números para um novo desafio.
+- `replay`: reinicia o jogo atual com o mesmo desafio.
+- `status`: mostra quantas células estão corretas e incorretas.
+- `complete`: verifica se o jogo foi finalizado corretamente.
+- `exit`: fecha o programa.
 
-- Java 11+
+## 💻 Tecnologias
+
+- Java 17+
 - Maven
-- Java Swing
+- Padrão Clean Code
+- Interface ASCII (console puro, sem bibliotecas externas)
+
+## 🧠 Propósito
+
+Este projeto foi criado com fins **educacionais e para portfólio pessoal**, como uma forma prática de aplicar:
+
+- Estruturação de código orientado a objetos
+- Organização de pacotes `model` e `ui`
+- Lógica de verificação de regras do Sudoku
+- Boas práticas de desenvolvimento em Java
+- Praticar o uso de Java Collections
+
+---
+
